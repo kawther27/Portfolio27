@@ -8,15 +8,16 @@ import Testimonials from './pages/Testimonials.jsx';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-      </Routes>
-    </Router>
-  );
+    <div> </div>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/projects" element={<Projects />} />
+    //     <Route path="/contact" element={<Contact />} />
+    //     <Route path="/testimonials" element={<Testimonials />} />
+    //   </Routes>
+    // </Router>
+   );
 }
 
 export default App;
