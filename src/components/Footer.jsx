@@ -1,8 +1,10 @@
 import React from 'react'
-
+import '../styles/Footer.css'
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="custom-footer text-center py-3" >
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
   )
 }
 
