@@ -5,8 +5,8 @@ function Header() {
     <header>
     <Navbar className="custom-header"  expand="lg" fixed="top">
       <Container >
-        <Navbar.Brand href="#home" style={{ color: '#d6bd97' }} className=' mx-4'>Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="sm-basic-navbar-nav" />
+        <Navbar.Brand href="#home" style={{ fontWeight: 'bold',color: '#d6bd97' ,fontFamily:'Dancing Script'}} className=' mx-4'>Kawther khlif</Navbar.Brand>
+        <Navbar.Toggle className='navbar-toggler' aria-controls="sm-basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto flex-sm-row align-items-start  ">
               <Nav.Link href="#home" className="text-white nav-link-custom mx-4">Home</Nav.Link>

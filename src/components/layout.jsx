@@ -2,12 +2,12 @@
 import React, { Children } from 'react'
 import Header from './Header'
 import Footer from './Footer'
-function Layout({Children}) {
+function Layout({children}) {
   return (
      <div className="d-flex flex-column min-vh-100">
         <Header/>
         <main className="flex-grow-1">
-         {Children}
+         {children}
         </main>
         <Footer/>
     </div>
