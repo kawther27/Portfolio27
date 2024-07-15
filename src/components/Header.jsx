@@ -1,10 +1,3 @@
-import React from 'react'
-<<<<<<< HEAD
-
-function Header() {
-  return (
-    <div>Header</div>
-=======
 import {Navbar, Nav, Container} from 'react-bootstrap'
 import '../styles/Header.css'
 function Header() {
@@ -25,7 +18,7 @@ function Header() {
       </Container>
     </Navbar>
   </header>
->>>>>>> feature/header-footer
+
   )
 }
 

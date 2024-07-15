@@ -13,12 +13,9 @@
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.4",
-<<<<<<< HEAD
-    "react-dom": "^18.2.0"
-=======
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.1"
->>>>>>> feature/header-footer
+
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

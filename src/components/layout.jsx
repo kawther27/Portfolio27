@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-function layout() {
-  return (
-    <div>layout</div>
-  )
-}
-
-export default layout
-=======
 import React, { Children } from 'react'
 import Header from './Header'
 import Footer from './Footer'
@@ -25,4 +15,4 @@ function Layout({Children}) {
 }
 
 export default Layout
->>>>>>> feature/header-footer
+
