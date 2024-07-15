@@ -9,9 +9,9 @@ function App() {
 
   return (
   
-<Layout>
-
-</Layout>
+<div>
+  
+</div>
 
    );
 
