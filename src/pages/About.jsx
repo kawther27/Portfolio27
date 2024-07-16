@@ -20,7 +20,8 @@ function About() {
                applications. I strive to create seamless
                user experiences through innovative interface design. 
                I hold a diploma in Mechatronics and have a deep interest 
-               in mechanics and cars.
+               in mechanics and cars.I LOVE MINIMAL
+               AND BRUTALIST DESIGN
                Beyond tech, I enjoy exploring fashion, art, and diverse
                cultures through travel and culinary adventures</p>
               <Button variant="warning" href="./src/assets/files/CV.pdf" download className="download-cv">Download CV</Button>
