@@ -6,6 +6,29 @@
 }
 
 
+main {
+  flex-grow: 1;
+}
+html, body, #root {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 
 
 

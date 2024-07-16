@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../styles/About.css';
+import profilePhoto from '../assets/images/photoProfile.jpg';
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       <Container>
         <Row className="align-items-center">
           <Col md={4}>
-            <img src="./src/assets/images/photoProfile.jpg" alt="Profile" className="img-fluid rounded-circle profile-photo" />
+            <img src={profilePhoto} alt="Profile" className="img-fluid rounded-circle profile-photo" />
           </Col>
           <Col md={8}>
             <div className="about-text">
