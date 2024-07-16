@@ -1,0 +1,81 @@
+.projects-section {
+    padding: 20px;
+    
+  }
+  .description {
+    max-height: 5em; 
+    overflow-y: auto;
+    font-size: 1rem;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0.5em;
+    line-height: 1.5em;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    scrollbar-width: thin;
+    
+  }
+  .carousel-item {
+    max-height: 60vh; /* Same height as the carousel */
+  }
+  .carousel-item img {
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+  } 
+ 
+  
+  .carousel-caption h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-caption {
+      max-width: 90%;
+      font-size: 14px;
+    }
+    .carousel {
+        max-height: 60vh; /* Adjust the height as needed */
+        overflow: hidden;
+        
+      }
+    .carousel-caption h3 {
+      font-size: 18px;
+    }
+  
+    .description {
+      max-height: 5em; /* Limite à 2 lignes avec overflow */
+      font-size: 0.875rem; /* Réduction de la taille de la police */
+    }
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
