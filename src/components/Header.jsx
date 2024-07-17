@@ -13,7 +13,7 @@ function Header() {
               <Nav.Link as={Link} to="/" className="text-white nav-link-custom mx-4">Home</Nav.Link>
               <Nav.Link as={Link} to="/about" className="text-white nav-link-custom mx-4">About</Nav.Link>
               <Nav.Link as={Link} to="/projects" className="text-white nav-link-custom mx-4">Projects</Nav.Link>
-              <Nav.Link href="#contact" className="text-white nav-link-custom mx-4">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/contact"className="text-white nav-link-custom mx-4">Contact</Nav.Link>
               <Nav.Link href="#testimonials" className="text-white nav-link-custom mx-4">Testimonials</Nav.Link>
             </Nav>
           </Navbar.Collapse>
