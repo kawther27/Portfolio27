@@ -9,7 +9,7 @@ function About() {
       <Container>
         <Row className="align-items-center">
           <Col md={4}>
-            <img src={profilePhoto} alt="Profile" className="img-fluid rounded-circle profile-photo" />
+          <img src={profilePhoto} alt="Profile" style={{ borderRadius: '15px', border: '2px solid #d6bd97', padding: '5px' }} className="img-fluid profile-photo" />
           </Col>
           <Col md={8}>
             <div className="about-text">
@@ -25,7 +25,7 @@ function About() {
                AND BRUTALIST DESIGN
                Beyond tech, I enjoy exploring fashion, art, and diverse
                cultures through travel and culinary adventures</p>
-              <Button variant="warning" href="./src/assets/files/CV.pdf" download className="download-cv">Download CV</Button>
+              <Button variant="warning" href="/cv/cv.pdf" download className="download-cv">Download CV</Button>
             </div>
           </Col>
         </Row>

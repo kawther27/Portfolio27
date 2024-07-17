@@ -13,7 +13,7 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
+      title: "Popjet1",
       description: "Description for project 1. This project is a comprehensive solution designed to streamline the cultivation, tracking, and management of cannabis plants from seedling to harvest. Utilizing the powerful .NET MAUI framework, this application supports both desktop and mobile platforms, ensuring seamless accessibility and management for users. Key features include comprehensive CRUD operations for managing plant varieties, stages of life, storage locations, provenance, and user roles. The system also offers robust logging and note-taking capabilities to track plant health, modifications, and historical data, providing an all-encompassing tool for efficient cannabis cultivation management.",
       img: "./src/assets/images/App-ges-demande.jpeg",
       link: "https://github.com/seifallah12345/livrable1",

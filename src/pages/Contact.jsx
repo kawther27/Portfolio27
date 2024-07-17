@@ -4,10 +4,7 @@ import '../styles/Contact.css';
 import locationIcon from '../assets/images/location.png';
 import phoneIcon from '../assets/images/phone.png';
 import emailIcon from '../assets/images/email.png';
-import userIcon from '../assets/images/user.png'
-import subjectIcon from '../assets/images/Q-M.png'
-import dm from '../assets/images/dm.png'
-import alt from '../assets/images/alt.png'
+
 function Contact() {
   const [show, setShow] = useState(false);
 
