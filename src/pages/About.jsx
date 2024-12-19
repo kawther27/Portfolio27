@@ -25,7 +25,7 @@ function About() {
                AND BRUTALIST DESIGN
                Beyond tech, I enjoy exploring fashion, art, and diverse
                cultures through travel and culinary adventures</p>
-              <Button variant="warning" href="/cv/cv.pdf" download className="download-cv">Download CV</Button>
+              <Button variant="warning" href="/cv/kawtherKhlif.docx" download className="download-cv">Download CV</Button>
             </div>
           </Col>
         </Row>
